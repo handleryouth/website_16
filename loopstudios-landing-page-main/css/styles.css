@@ -1,0 +1,360 @@
+/*for font*/
+.alata-font{
+  font-family: 'Alata', sans-serif;
+}
+
+.josefin-sans-font{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*first page*/
+.first-image-place{
+  background-image: url("../images/mobile/image-hero.jpg");
+  background-size: cover;
+  height:40rem;
+}
+
+.first-page-navbar{
+  padding: 0;
+}
+
+.navbar-collapse{
+  background-color: black;
+}
+
+
+.word-link{
+  color: white;
+  font-family: 'Josefin Sans';
+  font-size: 2rem;
+}
+
+.navbar-nav{
+  padding: 4rem 0;
+}
+
+.navbar-brand{
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nav-item{
+  margin: 0 1rem;
+}
+
+.nav-item:hover{
+  border-bottom: 2px solid white;
+  transition: all 0.3s;
+}
+
+.first-page-content{
+  height:36.2rem;
+  display:flex;
+  align-items: center;
+  margin: 0 2rem;
+  color:#fff;
+
+}
+
+.first-page-text{
+  border-style: solid;
+  padding:1rem;
+  font-size: 3.2rem;
+}
+
+
+
+
+/*second-page*/
+.second-page{
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.second-page-image{
+  width: 82%;
+}
+
+.second-page-header{
+  margin: 1rem 0;
+}
+
+.second-page-description{
+  padding: 0 2rem;
+  text-align:center;
+  margin: 0 auto;
+}
+
+/*third-page*/
+.third-page{
+  text-align: center;
+}
+
+.third-page-button-title{
+  display:flex;
+  justify-content:space-around;
+  margin-bottom: 2rem;
+}
+
+.third-page-up-button{
+  width:13rem;
+  display:none;
+  visibility:hidden;
+}
+
+.third-page-image{
+  width:100%;
+}
+
+.third-page-image-desktop{
+  display:none;
+  visibility:hidden;
+}
+
+.third-page-image-description{
+  position: absolute;
+  z-index: 2;
+  color: white;
+  font-size: 2.3rem;
+  top: 25px;
+  text-align:left;
+  left: 25px;
+}
+
+
+.third-page-column{
+  margin:0.5rem 0;
+}
+
+.third-page-button{
+  width:13rem;
+  margin-top: 1.5rem;
+}
+
+/*footer-page*/
+.footer-page-logo{
+  margin:2rem 0;
+}
+
+.footer-page{
+  background-color:black;
+  text-align: center;
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+}
+
+.footer-page-link{
+  margin-bottom: 2rem;
+}
+
+.footer-page-column{
+  margin: 0.5rem 0;
+}
+
+
+.footer-page-anchor{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-page-anchor:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.social-media-container{
+  margin:1rem 0;
+}
+
+
+.social-media{
+  margin:0 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.social-media:hover{
+  transition: all 0.3s ease;
+  border-bottom: 1px solid white
+}
+
+.copyright{
+  margin: 1rem 0;
+  color: gray;
+}
+
+
+@media (min-width:501px){
+.third-page-image-description{
+  top: 1.75em;
+}
+
+}
+
+
+@media (min-width:768px){
+  .third-page-image-description{
+    font-size: 3.3rem;
+    top: 1.5em;
+  }
+
+}
+
+
+@media (min-width:839px){
+.first-page-text{
+  font-size: 5.2rem;
+}
+
+.second-page-description{
+  padding: 0 5rem;
+}
+}
+
+
+@media (min-width:992px){
+  .navbar-nav{
+    margin-right: 7rem;
+  }
+
+  .navbar-collapse{
+    background-color: transparent;
+  }
+
+  .word-link{
+    font-size: 1.5rem;
+  }
+
+  .second-page-description{
+    padding: 0 8rem;
+  }
+
+
+
+  /*first page*/
+  .first-image-place{
+    height: 58rem;
+  }
+
+
+  /*third page*/
+
+  .third-page-up-button{
+    display:block;
+    visibility:visible;
+  }
+
+  .third-page-image-description{
+    font-size: 2.5rem;
+    top: 6em;
+  }
+
+  .third-page-button{
+    display:none;
+    visibility:hidden;
+  }
+
+  .third-page-image{
+    display: none;
+    visibility: hidden;
+  }
+
+  .third-page-image-desktop{
+    display: inline-block;
+    visibility: visible;
+    width: 100%;
+  }
+
+  .third-page-column:hover .third-page-image-description {
+    color: black;
+  }
+
+  .third-page-column:hover .third-page-image-desktop{
+    opacity: 0.5;
+    transition:all 0.5s ease;
+  }
+
+  /*footer page*/
+  .footer-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-page-anchor:hover{
+    text-decoration: underline;
+  }
+
+  .footer-page-logo{
+    position: relative;
+    right:3.875em;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-page-link{
+    position: relative;
+    left:1.875em;
+  }
+
+  .social-media-container{
+    margin: 2.1rem 0;
+  }
+
+  .footer-icon:hover{
+    text-decoration:underline;
+  }
+}
+
+@media (min-width:1199px){
+
+  .second-page-description{
+    padding: 0 13rem;
+  }
+
+  .third-page-image-description {
+    font-size: 3rem;
+}
+
+}
+
+@media (min-width:1301px){
+  .first-page-text{
+    font-size: 7.5rem;
+  }
+
+}
+
+@media(min-width:1400px){
+
+  .second-page{
+    margin-bottom: 15rem;
+  }
+
+  .second-page-image{
+    max-width:56rem;
+    position:relative;
+    right:6.25em;
+  }
+
+  .second-description{
+    position: absolute;
+    padding: 1.5rem;
+    z-index:1;
+    background-color: white;
+    max-width: 27rem;
+    height:21rem;
+    right: 0;
+    left: 55%;
+    top: 90rem;
+    bottom: 0;
+  }
+
+  .second-page-description{
+    padding: 0;
+  }
+
+
+}
