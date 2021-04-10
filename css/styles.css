@@ -45,7 +45,7 @@
 }
 
 .nav-item:hover{
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
   transition: all 0.3s;
 }
 
@@ -227,6 +227,10 @@
     font-size: 1.5rem;
   }
 
+  .nav-link{
+    padding: 0.5rem 0.3rem;
+  }
+
   .second-page-description{
     padding: 0 8rem;
   }
@@ -289,9 +293,13 @@
 
   .footer-page-logo{
     position: relative;
-    right:3.875em;
+    right:6.875em;
     margin-top: 4rem;
     margin-bottom: 2rem;
+  }
+
+  .footer-page-left{
+    width: 27%;
   }
 
   .footer-page-link{
